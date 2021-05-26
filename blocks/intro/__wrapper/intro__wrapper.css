@@ -1,0 +1,26 @@
+.intro__wrapper{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media screen and (min-width: 768px){
+    .intro__wrapper{
+    margin-left: 24px;
+    margin-right: 24px;
+    
+    }  
+}
+
+@media screen and (min-width: 1024px){
+    .intro__wrapper{
+    margin-left: 48px;
+    max-width: 984px;  
+    }  
+}
+
+@media screen and (min-width: 1280px){
+    .intro__wrapper{
+    margin: 0 auto;
+     
+    }  
+}
