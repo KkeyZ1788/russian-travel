@@ -5,11 +5,16 @@
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
-    width: calc(100% - 32px);
+    width: 90%;
     display: flex;
     justify-content: center;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+}
+@media screen and (min-width: 768px){
+    .lead__subtitle{
+    max-width: 640px;
+    }
 }
